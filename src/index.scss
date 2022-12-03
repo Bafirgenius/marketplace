@@ -1,8 +1,17 @@
 body {
     margin: 0;
+    padding: 20px 40px;
     font-family: "Open Sans Condensed", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    // overflow: hidden;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
 }
 
 code {

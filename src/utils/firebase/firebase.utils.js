@@ -95,7 +95,7 @@ export const signOutUser = async () => {
 export const onAuthStateChangedListener = (callback) =>
     onAuthStateChanged(
         auth,
-        callback,
-        errorCallback,
-        completedCallback
+        callback
+        // errorCallback,
+        // completedCallback
     );
